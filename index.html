@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--icons-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>JP's mini portfolio</title>
+</head>
+
+<body>
+    <header class="profile container">
+        <!--dark/lightmode -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__pic">
+                        <img src="assets/img/unnamed.png" alt="">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">JP Canoy</h2>
+                <h3 class="profile__profession">A simple student</h3>
+
+                <ul class="profile__socials">
+                    <a href="https://www.linkedin.com/in/jampolygon/" target="_blank" class="profile__social-link">
+                        <i class="ri-linkedin-line"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/jampolygon" target="_blank" class="profile__social-link">
+                        <i class="ri-facebook-circle-line"></i>
+                    </a>
+
+                    <a href="https://github.com/jampolygon" target="_blank" class="profile__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">:(</h3>
+                    <p class="profile__info-description">Years of <br> work</p>
+                </div>
+
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">+1</h3>
+                    <p class="profile__info-description">Projects <br> completed</p>
+                </div>
+
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">1</h3>
+                    <p class="profile__info-description">Certificates</p>
+                </div>
+            </div>
+
+            <div class="profile__buttons">
+                <!--resume download-->
+                <a href="assets/pdf/jampolygon_resume.pdf" class="button"><i class="ri-eye-line"></i>Resume</a>
+                <a href="assets/pdf/java_cert.pdf" class="button"><i class="ri-eye-line"></i>Java Cert</a>
+            </div>
+
+            <div class="profile__buttons-small">
+                <a href="https://m.me/jampolygon" target="_blank" class="button button__small button__gray">
+                    <i class="ri-messenger-line"></i>
+                </a>
+
+                <a href="mailto:jhonpaul.jpc9@gmail.com" target="_blank" class="button button__small button__gray">
+                    <i class="ri-mail-send-line"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="filters container">
+
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active" data-target="#projects">Projects</button>
+                <button class="filters__button" data-target="#skills">Skills</button>
+            </ul>
+            
+            <div class="filters__sections">
+                <!--projects-->
+                <div class="projects__contents grid filters__active" data-content id="projects">
+                    <article class="projects__card" data-project-open="prepaview" tabindex="0" role="button" aria-label="Open Prepaview project details">
+                        <img src="assets/img/prepaview2.png" alt="" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Game</span>
+                                <h3 class="projects__title">Prepaview</h3>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!--skills-->
+                <div class="skills__contents grid" data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">Frontend</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-html5-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-css3-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-javascript-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">Backend</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-java-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Java</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-code-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-database-2-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">Extras</h3>
+
+                        <div class="skills__box skills__box--split">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-openai-fill"></i>
+                                    <div>
+                                        <h3 class="skills__name">ChatGPT</h3>
+                                        <span class="skills__level">AI Assistant</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-claude-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Claude</h3>
+                                        <span class="skills__level">AI Assistant</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-tools-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Troubleshooting</h3>
+                                        <span class="skills__level">Support</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-settings-2-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Unreal Engine</h3>
+                                        <span class="skills__level">Game Engine</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-bard-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Google Gemini</h3>
+                                        <span class="skills__level">AI Assistant</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-microsoft-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Office 365</h3>
+                                        <span class="skills__level">Productivity</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-palette-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Canva</h3>
+                                        <span class="skills__level">Design</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <section class="project-detail" data-project-panel="prepaview" aria-hidden="true">
+        <div class="project-detail__backdrop" data-project-close></div>
+        <div class="project-detail__dialog" role="dialog" aria-modal="true" aria-labelledby="project-detail-title">
+            <button type="button" class="project-detail__close" data-project-close aria-label="Close Prepaview details">
+                <i class="ri-close-line"></i>
+            </button>
+
+            <div class="project-detail__media">
+                <div class="project-detail__slides" data-project-slides="prepaview">
+                    <img src="assets/img/prepaview2.png" alt="Prepaview project preview 1" class="project-detail__slide is-active">
+                    <img src="assets/img/prepaview1.png" alt="Prepaview project preview 2" class="project-detail__slide">
+                    <img src="assets/img/prepaview3.png" alt="Prepaview project preview 3" class="project-detail__slide">
+                    <img src="assets/img/prepaview4.png" alt="Prepaview project preview 4" class="project-detail__slide">
+                    <img src="assets/img/prepaview5.png" alt="Prepaview project preview 5" class="project-detail__slide">
+                </div>
+
+                <div class="project-detail__dots" aria-hidden="true">
+                    <span class="project-detail__dot is-active"></span>
+                    <span class="project-detail__dot"></span>
+                    <span class="project-detail__dot"></span>
+                    <span class="project-detail__dot"></span>
+                    <span class="project-detail__dot"></span>
+                </div>
+            </div>
+
+            <div class="project-detail__content">
+                <span class="project-detail__eyebrow">Game</span>
+                <h2 class="project-detail__title" id="project-detail-title">PREPAVIEW: AI JOB INTERVIEW SIMULATOR</h2>
+                <p class="project-detail__meta">by Gian Noriega, JP Canoy, Rhyen Santiago</p>
+                <p class="project-detail__description">
+                    Prepaview is a simulation game that helps job seekers practice interviews in an interactive and gamified way. 
+                    Instead of passively watching tutorials, players step into a virtual interview environment and converse directly with AI-driven HR interviewers.
+                </p>
+                <a href="https://jampolygon.itch.io/prepaview" target="_blank" rel="noopener noreferrer" class="project-detail__link">
+                    jampolygon.itch.io/prepaview
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer container">
+        <span class="footer__copy">
+            Made with hardwork and a little bit help of AI by JP Canoy <i class="ri-heart-3-fill"></i>
+        </span>
+    </footer>
+
+    <!--js-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
