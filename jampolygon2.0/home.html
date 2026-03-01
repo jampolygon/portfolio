@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--icons-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>JP's mini prtfolio</title>
+</head>
+
+<body>
+    <header class="profile container">
+        <!--dark/lightmode -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+
+
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__pic">
+                        <img src="assets/img/unnamed.png" alt="">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">JP Canoy</h2>
+                <h3 class="profile__profession">A simple student</h3>
+
+                <ul class="profile__socials">
+                    <a href="https://www.linkedin.com/in/jampolygon/" target="_blank" class="profile__social-link">
+                        <i class="ri-linkedin-line"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/jampolygon" target="_blank" class="profile__social-link">
+                        <i class="ri-facebook-circle-line"></i>
+                    </a>
+
+                    <a href="https://github.com/jampolygon" target="_blank" class="profile__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">:(</h3>
+                    <p class="profile__info-description">Years of <br> work</p>
+                </div>
+
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">+1</h3>
+                    <p class="profile__info-description">Projects <br> completed</p>
+                </div>
+
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">1</h3>
+                    <p class="profile__info-description">Certificates</p>
+                </div>
+            </div>
+
+            <div class="profile__buttons">
+                <!--resume download-->
+                <a href="assets/pdf/jampolygon_resume.pdf" class="button"><i class="ri-eye-line"></i>Resume</a>
+                <a href="assets/pdf/java_cert.pdf" class="button"><i class="ri-eye-line"></i>Java Cert</a>
+            </div>
+
+            <div class="profile__buttons-small">
+                <a href="https://m.me/jampolygon" target="_blank" class="button button__small button__gray">
+                    <i class="ri-messenger-line"></i>
+                </a>
+
+                <a href="mailto:jhonpaul.jpc9@gmail.com" target="_blank" class="button button__small button__gray">
+                    <i class="ri-mail-send-line"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="filters container">
+
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active" data-target="#projects">Projects</button>
+                <button class="filters__button" data-target="#skills">Skills</button>
+            </ul>
+            
+            <div class="filters__sections">
+                <!--projects-->
+                <div class="projects__contents grid filters__active" data-content id="projects">
+                    <article class="projects__card">
+                        <img src="assets/img/prepaview2.png" alt="" class="projects__img">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Game</span>
+                                <h3 class="projects__title">Prepaview</h3>
+                                <a href="#" class="projects__button button button__small">
+                                    <i class="ri-eye-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!--skills-->
+                <div class="skills__contents grid" data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skills__title">Frontend</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-html5-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-css3-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-javascript-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">Backend</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-java-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Java</h3>
+                                        <span class="skills__level">Intermediate</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-code-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Python</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-database-2-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__level">Basic</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills__area">
+                        <h3 class="skills__title">Extras</h3>
+
+                        <div class="skills__box">
+                            <div class="skills__group">
+                                <div class="skills__data">
+                                    <i class="ri-openai-fill"></i>
+                                    <div>
+                                        <h3 class="skills__name">ChatGPT</h3>
+                                        <span class="skills__level">Tooling</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-bard-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Google Gemini</h3>
+                                        <span class="skills__level">Tooling</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-claude-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Claude</h3>
+                                        <span class="skills__level">Tooling</span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <i class="ri-settings-2-line"></i>
+                                    <div>
+                                        <h3 class="skills__name">Unreal Engine</h3>
+                                        <span class="skills__level">Engine</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer container">
+        <span class="footer__copy">
+            Made with hardwork and a little bit help of AI by JP Canoy <i class="ri-heart-3-fill"></i>
+        </span>
+    </footer>
+
+    <!--js-->
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
