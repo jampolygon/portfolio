@@ -1,6 +1,6 @@
 {
   "versionName": "1.0.1",
   "apkUrl": "https://your-download-link.apk",
-  "changelog": "Test updater flow.",
-  "type": "mandatory"
+  "changelog": "bayad muna boi",
+  "type": "locked"
 }
