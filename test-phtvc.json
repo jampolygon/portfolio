@@ -2,8 +2,8 @@
   "versionCode": 46,
   "versionName": "1.2.1",
   "updateTitle": "New Update Available",
-  "changelog": "Performance improvements and minor fixes.",
+  "changelog": "mandatory test",
   "apkUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
-  "forceUpdate": false,
+  "forceUpdate": true,
   "isMaintenanceMode": false
 }
