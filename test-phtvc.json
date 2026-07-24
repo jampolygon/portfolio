@@ -1,9 +1,12 @@
 {
-  "versionCode": 46,
-  "versionName": "1.2.1",
-  "updateTitle": "App will be shutdown",
-  "changelog": "Thank you for using this app. it's been a good run.",
+  "versionCode": 45,
+  "versionName": "1.2 Stable",
+  "updateTitle": "New Update Available",
+  "updateMessage": "A new version of PHTVC is ready for download.",
   "apkUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
   "forceUpdate": false,
-  "isMaintenanceMode": false
+  "isMaintenanceMode": false,
+  "showDevMessageButton": false,
+  "devMessageTitle": "A Message from the Developer",
+  "devMessageContent": "July 26, 2026\n\nHello everyone.\n\nFirst of all, thank you sa lahat ng nag-download, nag-share, at sumuporta sa PHTVC. ❤️\n\nHonestly, hindi ko talaga in-expect na ganito kalaki yung mararating ng project na 'to. Akala ko around 100 people lang yung makakakita nito. Nagulat nalang ako na ang dami nang nag-share at gumagamit.\n\nTo be honest, passion project lang talaga ito.\n\nGinawa ko ang PHTVC kasi almost 6 years na kaming walang TV sa bahay. Since then, naging full online na ako. Dumating sa point na hindi ko na alam kung anong mga shows ang pinapanood ng karamihan o kung ano yung mga live events na pinag-uusapan ng mga tao. Kaya naisip ko, \"What if gumawa nalang ako ng sariling app?\"\n\nYun lang talaga yung dahilan.\n\nHabang ginagawa ko yung app, sobrang focus ko sa coding, pag-design ng UI, pag-aayos ng features, at pagpapaganda ng overall experience. Hindi ko talaga inisip kung gaano pala ka-complicated yung legal at licensing side ng IPTV.\n\nPero nitong mga nakaraang araw, nag-research ako nang mas malalim. Doon ko na-realize na marami pa pala akong hindi alam at kailangan ko pang maintindihan bago ko maituloy nang maayos yung project.\n\nKaya after thinking about it, PHTVC will enter indefinite maintenance mode after 7 days.\n\nHindi ibig sabihin nito na tapos na ang PHTVC. Gusto ko lang muna huminto, mag-research, at pag-isipan kung ano yung pinakamagandang direction para sa app.\n\nMay isa pa akong gustong sabihin.\n\nSince papasok na sa maintenance mode ang app, ide-delete ko rin lahat ng PHTVC accounts at cloud data na naka-store sa Firebase. Kasama rito yung favorites, settings, at iba pang data ng app.\n\nDon't worry, hindi maaapektuhan ang Google account ninyo. Yung data ng PHTVC lang mismo ang ide-delete. Kung bumalik man ang app sa future, everyone will simply start fresh.\n\nI really hope this isn't goodbye.\n\nMarami pa akong gustong gawin sa PHTVC, pero gusto kong siguraduhin muna na tama yung direction na tatahakin ko.\n\nKung gusto mong magbigay ng feedback, suggestions, o gusto mo lang makipag-usap tungkol sa project, feel free to email me at phtvc@proton.me.\n\nBabasa ako ng lahat ng emails, kahit baka hindi ako agad makareply.\n\nAgain, thank you sa lahat ng sumuporta sa maliit na passion project na ginawa ko.\n\nSee you soon. 💙\n\n— Jhon Paul"
 }
