@@ -1,9 +1,9 @@
 {
   "versionCode": 46,
   "versionName": "1.2.1",
-  "updateTitle": "New Update Available",
-  "changelog": "mandatory test",
+  "updateTitle": "App will be shutdown",
+  "changelog": "Thank you for using this app. it's been a good run.",
   "apkUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
-  "forceUpdate": true,
-  "isMaintenanceMode": false
+  "forceUpdate": false,
+  "isMaintenanceMode": true
 }
