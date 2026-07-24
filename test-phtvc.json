@@ -5,5 +5,5 @@
   "changelog": "Thank you for using this app. it's been a good run.",
   "apkUrl": "https://jampolygon.github.io/phtvc-dl/PHTVC.apk",
   "forceUpdate": false,
-  "isMaintenanceMode": true
+  "isMaintenanceMode": false
 }
